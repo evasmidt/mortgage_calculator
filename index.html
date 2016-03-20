@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mortgage Calculator</title>
+	<link rel="stylesheet" href="foundation-6/css/foundation.css" />
+	<link rel="stylesheet" href="foundation-6/icons/foundation-icons.css" />
+	<link href='https://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'> 
+
+</head>
+<body>
+	<header>
+		<div class="row">
+		<div class="small-2 columns logo">
+			<a href="#"><i class="fi-home"></i> MortgageCalc</a>
+		</div>
+		</div>
+	
+			
+	</header>
+		
+	<div class="row">
+	<h1>Calculate Your Mortgage</h1>
+	</div>
+	
+		<div class="row">
+			<div class="large-6 medium-4 small-12 columns">Total cost of home?*</div>
+			<div class="large-6 medium-4 small-12 columns"><input type="text" name="price" placeholder="$400,000" required></div>
+		</div>
+		<div class="row">
+			<div class="large-6 medium-4 small-12 columns">Assessed value ($)</div>	
+			<div class="large-6 medium-4 small-12 columns"><input type="text" name="value" placeholder="400,000"></div>	
+		</div>
+	
+		<div class="row">
+			<div class="large-6 medium-4 small-12 columns">How much is your down payment (%)?*</div>
+			<div class="large-6 medium-4 small-12 columns"><input type="text" name="downpayment" placeholder="3.5%" required></div>
+		</div>
+		<div class="row">
+			<div class="large-6 medium-4 small-12 columns">Annual Interest Rate (%)?*</div>
+			<div class="large-6 medium-4 small-12 columns"><input type="text" name="interest" placeholder="4.25%" required></div>
+		</div>
+		<div class="row">
+			<div class="large-6 medium-4 small-12 columns">Loan Term (years)</div>	
+			<div class="large-6 medium-4 small-12 columns"><input type="text" name="term" placeholder="30"></div>	
+		</div>
+		
+		<div class="row">
+			<div class="large-offset-8 columns"><a href="#" class="button">Submit</a></div>
+		</div>
+
+<!--After submission, show results-->
+<div class="row">
+<h2>What you're lookin at...</h2>
+<h3 class="interest">Principal &amp; Interest: </h3>
+<h3 class="hoIns">Homeowner's Insurance: </h3>
+<h3 class="mortInsOne">Mortgage Insurance (up front): </h3>
+<h3 class="mortInsMonthly">Mortgage Insurance (monthly): </h3>
+<h3 class="propTax">Property Taxes: </h3>
+<h3 class="monthlyAmount">Total Monthly Payment: </h3>
+</div>
+
+	<footer></footer>
+	<script src="scripts/script.js"></script>
+</body>
+
+</html>
